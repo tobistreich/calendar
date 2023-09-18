@@ -5,8 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:calendar"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        ResizeMode="NoResize"
+        Title="MainWindow" Height="350" Width="400">
     <Grid>
+        <Calendar HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="169" Width="192"/>
+        <Expander HorizontalAlignment="Left" Height="298" Header="Plätze" Margin="233,15,0,0" VerticalAlignment="Top" Width="107">
+            <StackPanel>
+                <Grid>
+                    <Button Content="Platz 03 34 01" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                </Grid>
+                <Grid>
+                    <Button Content="Platz 03 34 02" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                </Grid>
+                <Grid>
+                    <Button Content="Platz 03 34 03" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                </Grid>
+                <Grid>
+                    <Button Content="Platz 03 34 04" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                </Grid>
+
+
+            </StackPanel>
+
+
+        </Expander>
 
     </Grid>
 </Window>
